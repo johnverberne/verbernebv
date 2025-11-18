@@ -1,0 +1,71 @@
+* {margin:0;}
+
+body {margin:0;font-family:Georgia,Arial;font-size:15px;color: #003b5a;height:100%;line-height:150%}
+
+/* hoofdblokken */
+.code {position:absolute;left:-45px;top:-14px;width:95%;height:100%;font-size:9pt;filter:alpha(opacity=20,Finishopacity=70);opacity:.60;}
+.art {position:absolute;right:0px; text-align:right; width:240px;}
+.main {position:absolute;left:0px;margin:0px 0px 0px 40px;width:850px;height:110%;opacity:.82;background:#ffffff;border-left:2px #DDD solid;}
+.mainsolid {position:absolute;left:0px;margin:0px 0px 0px 40px;width:880px;height:110%;opacity:.99;background:#ffffff;border-left:2px #DDD solid;}
+
+/* indeling van de main blok */
+.slider {position:absolute;top:0px; left:-13px;}
+.slider a {text-decoration: none; color:#000000;}
+
+.top {margin:0px 0px 0px 0px;width:770px;height:140px;border:0px solid;}
+.title {position:absolute;left:0px;margin:20px 0px 0px -16px;border:0px #f00 solid;}
+.menu {float:right;margin:45px 0px 30px 30px;padding-right:40px;border:0px #f00 solid;}
+.menu a {text-decoration: none; color:0074b8;}
+.menu a:hover {text-decoration: underline; color:red;}
+
+.content {margin:20px 0px 0px 5px;width:830px;height:100%;border:0px solid;}
+.contentportfolio {margin:20px 0px 0px 5px;width:710px;height:100%;border:0px solid;}
+.maincontent {float:left;width:450px;height100%; padding-right:0px;padding-top:45px;border:0px solid;}
+.maincontentportfolio {float:left;width:480px;height100%;border:0px solid; padding-right:0px;padding-top:45px;}
+.subcontent {float:right;width:185px;font-family:Arial;line-height:100%;padding:0px 0px 0px 0px;margin-left:20px;border:0px #f00 solid;}
+.subcontentportfolio {float:right;width:180px;border:0px #f00 solid;font-family:Arial;line-height:100%;padding:72px 0px 0px 0px;margin-left:25px;}
+
+.portfolio {position:absolute;top:0px;left:770px;padding:140px 0px 0px 20px; margin:10px 0px 0px 0px;width:310px;height:110%;border-left:2px #D0D0D0 solid; }
+
+/* side bar */
+.sidebox {float:left;border-left:1px #888d97 solid; border-right:1px #888d97 solid; width:298px;padding:8px;margin-bottom:5px;}
+.sidelink {text-align:right; width:100%; font-size:12px;}
+.sidelink a {text-decoration: none; color:red}
+.sidelink a:hover {color:red}
+
+.clear {content: ".";display: block;height: 0px;clear: both;visibility: hidden;}
+
+/* tekst markeringen  */
+.high {color: #0074b8;font-size:150%;font-style:italic;line-height:80%;font-family:Georgia}
+.portfoliolabel {color: #0074b8;font-size:100%;font-style:italic;line-height:80%;font-family:Georgia;padding-top:30px;padding-bottom:10px;}
+.portfoliotext {color:#003b5a;font-size:11px;padding:0 10 0 0;}
+ul {list-style: none;margin-left: 0;padding-left: 1em;}
+
+/* porfolio links */
+.rollover {width:300px; height: 80px;position:absolute;z-index:10;}
+.project {width:290px; height: 70px;background-color:#fff; position: absolute;z-index:5;visibility:hidden;opacity:.99; padding:5px; border: dotted #888d97 1; }
+
+
+/* nav */
+#nav {height: 38px;background: transparent; }
+#nav ul {display: block;margin: 0px;padding: 0px;list-style-type: none;width: auto; }
+#nav ul li {display: block;float: left;margin: 0px;padding: 0px; }
+#nav ul li a {font-family: "Arial";font-size: 14px;display: block;float: left;color: #003B5A;text-decoration: none;padding: 8px 8px 7px;border-bottom: none; }
+#nav ul li a:hover {color: #000000; }
+#nav ul li.selected a {color: #ff0000;}
+
+#twitter_div  {float:left;margin-left: -27px;width: 360px;height: 185px;overflow: auto;}
+ul#twitter_update_list {list-style: none;marge-left:-10px;font-size: 12px;line-height:100%;font-family:Arial;}
+ul#twitter_update_list li {margin-bottom: 0px;margin-right: 0px;padding-left: 20px;padding-top:5px;padding-bottom:0px;padding-right:20px;height:54px;color: #0074b8;background-color: #64AFFF;background:transparent url(images/twitter_ballon.gif) no-repeat top left;}
+
+#twitter_div a { color: #96997a; display:none; }
+
+a {color: #0074b8;text-decoration: none;}
+a:hover {color: #f00;}
+a:follow {color: #f00;}
+
+/* drop shadow */
+div.img-ilus {background: url('images/shadow.gif') no-repeat bottom right;margin: 0px 0px;padding: 0;position: relative;}
+div.img-ilus img {background-color: #fff;border: 1px solid #a9a9a9;margin: -5px 5px 5px -5px;padding: 4px;position: relative;vertical-align: bottom;}
+
+/* Localized */
